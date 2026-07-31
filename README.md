@@ -2,6 +2,8 @@
 
 A two-player snake game that runs right in your terminal using Python's built-in `curses` library. No external dependencies needed on Mac/Linux.
 
+**[▶ Play the browser version live](https://YOUR-USERNAME.github.io/YOUR-REPO/)** — a JS/Canvas port of the same game, playable instantly with no install. Replace the link with your own GitHub Pages URL once it's live (see setup below).
+
 ## Requirements
 
 - Python 3.6+
@@ -44,6 +46,22 @@ Press `q` at any time to quit.
 - If both snakes crash head-on into each other, it's a draw.
 - The round ends as soon as one or both snakes die. The last snake standing wins.
 - Final scores are shown on the game-over screen — press any key to exit.
+
+## Playing in the Browser (GitHub Pages)
+
+This repo includes `index.html`, a standalone HTML5/JS port of the game with the same rules and controls, playable in any browser — no Python required.
+
+To make it live at `https://YOUR-USERNAME.github.io/YOUR-REPO/`:
+
+1. Make sure `index.html` sits in the root of your repo (or in a `/docs` folder — either works).
+2. Push it to GitHub.
+3. In your repo, go to **Settings → Pages**.
+4. Under **Build and deployment → Source**, choose **Deploy from a branch**.
+5. Pick your branch (usually `main`) and the folder (`/` root, or `/docs` if you used that).
+6. Save. GitHub will give you a URL like `https://YOUR-USERNAME.github.io/YOUR-REPO/` — it can take a minute or two to go live the first time.
+7. Update the "Play the browser version live" link at the top of this README with that URL.
+
+That's it — anyone who visits the link can play instantly, no download needed.
 
 ## Notes
 

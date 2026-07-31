@@ -2,7 +2,7 @@
 
 A two-player snake game that runs right in your terminal using Python's built-in `curses` library. No external dependencies needed on Mac/Linux.
 
-**[▶ Play the browser version live](https://alokdwivedi103.github.io/snake-for-terminal/)** — a JS/Canvas port of the same game, playable instantly with no install. Replace the link with your own GitHub Pages URL once it's live (see setup below).
+**[▶ Play the browser version live](https://alokdwivedi103.github.io/snaker/)** — a JS/Canvas port of the same game, playable instantly with no install. Replace the link with your own GitHub Pages URL once it's live (see setup below).
 
 ## Requirements
 
